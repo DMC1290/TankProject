@@ -1,0 +1,34 @@
+{
+    "name": "Turret",
+    "maps": [
+        {
+            "name": "TurretCombat",
+            "id": "1a95017e-0628-4af2-84bb-339f7b348764",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "724fa79d-6415-48b5-bca3-b93a8e90223e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c21450fa-e44b-4044-8bdb-6ed37ae189e3",
+                    "path": "<DualShockGamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
