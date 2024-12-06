@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class TankController : MonoBehaviour
 {
     [SerializeField] private float _force = 200.0f;
-    [SerializeField] private float _turnSpeed = 50f;
+    [SerializeField] private float _turnSpeed = 30f;
 
     private bool _boosterInput = false;
     private float _turnInput = 0f;

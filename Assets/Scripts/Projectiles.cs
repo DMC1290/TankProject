@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Projectiles : MonoBehaviour
 {
-    [SerializeField] private float bulletForce = 100f;
+    [SerializeField] private float bulletForce = 30f;
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
