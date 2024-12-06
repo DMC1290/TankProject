@@ -5,7 +5,7 @@ public class TankController : MonoBehaviour
 {
     [SerializeField] private float _force = 200.0f;
     [SerializeField] private float _reverse_force = -200.0f;
-    [SerializeField] private float _turnSpeed = 30f;
+    [SerializeField] private float _turnSpeed = 1f;
 
     private bool _boosterInput = false;
     private bool _reverse_boostInput = false;
