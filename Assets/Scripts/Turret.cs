@@ -30,36 +30,4 @@ public class Turret : MonoBehaviour
         // check on console if it works
         Debug.Log("Tir effectué !");
     }
-
-    // IEnumerator WaitAndShoot()
-    //  {
-    //      if ()
-    //      {
-    //          if (shoot_routine != null)
-    //              StopCoroutine(shoot_routine);
-    //
-    //          shoot_routine = StartCoroutine("Fire");
-    //      }
-    //      else
-    //      {
-    //          StopCoroutine("Fire");
-    //          shoot_routine = null;
-    //      }
-    //  }
-    //  
-    //  void OnShoot(InputValue value)
-    //  {
-    //      if (value.isPressed)
-    //      {
-    //          if (shoot_routine != null)
-    //              StopCoroutine(shoot_routine);
-    //  
-    //          shoot_routine = StartCoroutine("Fire");
-    //      }
-    //      else
-    //      {
-    //          StopCoroutine("Fire");
-    //          shoot_routine = null;
-    //      }
-    //  }
 }
