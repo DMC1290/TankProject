@@ -109,11 +109,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4328481485665519968, guid: 7d0310484417b8c4e8170193a8c86c56, type: 3}
       propertyPath: m_Name
-      value: tower-square-build-a 1 2
+      value: tower-square-build-a
       objectReference: {fileID: 0}
     - target: {fileID: 4505728100461046643, guid: 7d0310484417b8c4e8170193a8c86c56, type: 3}
       propertyPath: m_Name
       value: FirePoint tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021824460469265011, guid: 7d0310484417b8c4e8170193a8c86c56, type: 3}
+      propertyPath: startHp
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6031183412659236285, guid: 7d0310484417b8c4e8170193a8c86c56, type: 3}
       propertyPath: m_Size.x
