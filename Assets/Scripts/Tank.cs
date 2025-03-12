@@ -3,12 +3,12 @@ using UnityEngine.InputSystem;
 
 public class TankController : MonoBehaviour
 {
-    [SerializeField] private float _force = 200.0f;
-    [SerializeField] private float _reverse_force = -200.0f;
-    [SerializeField] private float _turnSpeed = 1f;
+    [SerializeField] private float force = 200.0f;
+    [SerializeField] private float reverseForce = -200.0f;
+    [SerializeField] private float turnSpeed = 1f;
 
     private bool _boosterInput = false;
-    private bool _reverse_boostInput = false;
+    private bool _reverseBoostInput = false;
     private float _turnInput = 0f;
 
     private Rigidbody _rigidbody;
@@ -30,15 +30,15 @@ public class TankController : MonoBehaviour
     {
         if(_boosterInput)
         {
-            _rigidbody.AddForce( transform.forward * _force);
+            _rigidbody.AddForce( transform.forward * force);
         }
 
-        if (_reverse_boostInput)
+        if (_reverseBoostInput)
         {
-            _rigidbody.AddForce(transform.forward * _reverse_force);
+            _rigidbody.AddForce(transform.forward * reverseForce);
         }
 
-        _rigidbody.AddRelativeTorque(0, _turnInput * _turnSpeed, 0);
+        _rigidbody.AddRelativeTorque(0, _turnInput * turnSpeed, 0);
         Debug.Log(_turnInput);
     }
     
@@ -49,7 +49,7 @@ public class TankController : MonoBehaviour
 
     void OnReverseBoost(InputValue value)
     {
-        _reverse_boostInput = value.isPressed;
+        _reverseBoostInput = value.isPressed;
     }
 
     void OnLeftRight(InputValue value)
